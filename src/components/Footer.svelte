@@ -9,7 +9,7 @@ gap-4 sm:gap-8 justify-center items-center">
             <a class="text-violet-400" target="_blank" href="https://github.com/IsaacGug">
                 IsaacGug<sup
                 ><span class="text-xs scale-75 pl-0.5">
-                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
                 </span></sup>
             </a>
         </p>
@@ -17,7 +17,7 @@ gap-4 sm:gap-8 justify-center items-center">
             <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/isaac-guglielmin/">
                 isaac-guglielmin<sup
                 ><span class="text-xs scale-75 pl-0.5">
-                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
                 </span></sup>
             </a>
         </p>

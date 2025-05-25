@@ -106,13 +106,10 @@
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class="border-b border-solid border-slate-200">
                 <tr class="">
-                    <th />
                     <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
                     <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                     <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                    <th
-                        class="whitespace-nowrap bg-violet-700 text-white p-4 px-8"
-                        >Me<th/>
+                    <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">Me</th>
                 </tr>
             </thead>
             <tbody>
