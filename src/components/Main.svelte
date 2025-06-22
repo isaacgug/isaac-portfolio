@@ -58,7 +58,7 @@
                 </p>
             </Step>
             <Step step={steps[2]}> 
-                <p>Link to my blog where I write about things I find interesting! Normally related to tech but I sometimes dabble in other mediums. Article in progress: 
+                <p>Link to my blog where I write about things I find interesting! Normally related to tech but I sometimes dabble in other mediums. Most Recent Article: 
                 <strong class="text-yellow-400">Refinding the Fun in Learning</strong>
                 </p>
             </Step>
