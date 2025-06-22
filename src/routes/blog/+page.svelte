@@ -2,7 +2,7 @@
 	let { data } = $props();
 </script>
 
-<h1>blog</h1>
+<h1>Coming Soon!</h1>
 
 <ul>
 	{#each data.summaries as { slug, title }}
