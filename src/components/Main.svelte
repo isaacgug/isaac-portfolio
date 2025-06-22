@@ -9,8 +9,9 @@
 
     let benefits = [
         {name: 'Networking Software Engineer', description: 'I have been working for the last 3.5 years as a Networks focused Software Engineer developing and maintaining a large scale Networking project for Boeing. At Boeing I have gained skills in Python development and best practices, virtualisation utilising QEMU and libvirt and also utilising and integrating our own software stacks with CISCO. I have just recently transitioned to a role at the startup HaastAI where I am working as a fullstack software engineer on their cutting edge AI and marketing compliance web application.'},
-        {name: '', description: ''},
-        {name: '', description: ''}
+        // TODO: Add more things here
+        // {name: '', description: ''},
+        // {name: '', description: ''}
     ]
 </script>
 <scipt>
