@@ -2,7 +2,7 @@
     let { data } = $props();
 </script>
 
-<div class="mx-auto max-w-3xl">
+<div class="mx-auto max-w-3xl pointer-events-auto">
     <div
         class="
             [&_a]:text-yellow-400 [&_a]:underline [&_a]:hover:text-yellow-300

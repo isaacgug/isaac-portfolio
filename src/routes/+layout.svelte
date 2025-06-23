@@ -1,5 +1,6 @@
 <script>
     import "../app.css";
+    import { afterNavigate } from '$app/navigation';
     import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
 
@@ -10,6 +11,18 @@
     function goTop() {
         document.body.scrollIntoView();
     }
+
+    afterNavigate((nav) => {
+    // Only scroll to top if navigating to "/" with no hash
+    if (
+        nav.to?.url.pathname === '/' &&
+        (!nav.to.url.hash || nav.to.url.hash === '#top')
+    ) {
+        setTimeout(() => {
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+        }, 0);
+    }
+});
 </script>
 
 <div class="relative flex flex-col max-w-[1400px] mx-auto w-full text-sm
