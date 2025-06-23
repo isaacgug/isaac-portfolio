@@ -1,8 +1,7 @@
 export const posts = [
 	{
-		slug: 'Coming Soon!',
-		title: 'Coming Soon!',
-		content:
-			'<p>Coming Soon!</p>'
+		slug: 'how-i-got-here',
+		title: 'How I Got Here',
+		date: '23-06-2025'
 	}
 ];

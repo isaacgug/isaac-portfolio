@@ -23,9 +23,10 @@ sm:text-base min-h-screen">
         </button>
     </div>
     <Header y={y}/>
-    <slot />
+    <div class="flex-1 flex flex-col">
+        <slot />
+    </div>
     <Footer/>
-
 </div>
 
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth></svelte:window>

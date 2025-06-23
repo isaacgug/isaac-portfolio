@@ -8,10 +8,9 @@
     ]
 
     let benefits = [
-        {name: 'Networking Software Engineer', description: 'I have been working for the last 3.5 years as a Networks focused Software Engineer developing and maintaining a large scale Networking project for Boeing. At Boeing I have gained skills in Python development and best practices, virtualisation utilising QEMU and libvirt and also utilising and integrating our own software stacks with CISCO. I have just recently transitioned to a role at the startup HaastAI where I am working as a fullstack software engineer on their cutting edge AI and marketing compliance web application.'},
-        // TODO: Add more things here
-        // {name: '', description: ''},
-        // {name: '', description: ''}
+        {name: 'Fullstack Software Engineer', description: 'I have been working for the last 3.5 years as a Networks focused Software Engineer developing and maintaining a large scale Networking project for Boeing. At Boeing I have gained skills in Python development and best practices, virtualisation utilising QEMU and libvirt and also utilising and integrating our own software stacks with CISCO. I have just recently transitioned to a role at the startup HaastAI where I am working as a fullstack software engineer on their cutting edge AI and marketing compliance web application.'},
+        {name: 'Massive Nerd', description: 'I love all things Video Games, Anime, Tech, Art, Music. The list goes on. Let me rattle off my favourite of each. Video Games: Elden Ring. Anime: One Piece. Tech: Virtualisation and Automation. Art: Painting. Music: Sleep Token. Feel free to reach out to me if you want to chat about any of these things!'},
+        {name: 'Loading...', description: "Surely I can come up with a third thing at some point. I can't be that boring."}
     ]
 </script>
 <scipt>
@@ -31,7 +30,7 @@
                 FRR, JavaScript (SvelteKit), TailwindCSS and AWS!
             </p>
             <p class="text-base sm:text-lg md:text-xl">
-                Follow along with me and my journey of trying to be a little bit better each day!
+                Follow along with me and my journey of trying to be a little bit better each day.
             </p>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
@@ -47,7 +46,7 @@
                 Curious to <span class="poppins text-yellow-400">see</span> my work?
             </h3>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 text-lg">
             <Step step={steps[0]}> 
                 <p>Link to my current programming projects and previously completed ones. These projects utilise the following tech stacks.
                 <strong class="text-yellow-400">Python, JavaScript (SvelteKit), TailwindCSS and AWS</strong>
@@ -60,7 +59,7 @@
             </Step>
             <Step step={steps[2]}> 
                 <p>Link to my blog where I write about things I find interesting! Normally related to tech but I sometimes dabble in other mediums. Most Recent Article: 
-                <strong class="text-yellow-400">Refinding the Fun in Learning</strong>
+                <strong class="text-yellow-400">How I Got Here</strong>
                 </p>
             </Step>
         </div>
@@ -73,19 +72,21 @@
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
-            {#each benefits as benefit, index}
-                <div class="flex gap-6 sm:gap-8">
-                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
-                        0{index+1}
-                    </p>
-                    <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
-                            {benefit.name}
-                        </h3>
-                        <p>{benefit.description}</p>
-                    </div>
+        {#each benefits as benefit, index}
+            <div class="mb-8">
+                <div class="flex items-start gap-4">
+                    <span class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold min-w-[3.5rem] text-left">
+                        0{index + 1}
+                    </span>
+                    <h3 class="text-2xl sm:text-3xl md:text-5xl text-left">
+                        {benefit.name}
+                    </h3>
                 </div>
-            {/each}
+                <p class="ml-[calc(3.5rem+1rem)] text-white text-justify text-lg leading-relaxed mt-6">
+            {benefit.description}
+        </p>
+            </div>
+        {/each}
         </div>
     </section>
 </main>
