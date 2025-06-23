@@ -80,9 +80,10 @@
                         {benefit.name}
                     </h3>
                 </div>
-                <p class="ml-[calc(3.5rem+1rem)] text-white text-justify text-lg leading-relaxed mt-6">
-            {benefit.description}
-        </p>
+                <p class="ml-[calc(3.5rem+1rem)] text-white text-justify text-lg leading-relaxed mt-6
+                        text-center sm:text-justify sm:ml-[calc(3.5rem+1rem)] ml-0">
+                    {benefit.description}
+                </p>
             </div>
         {/each}
         </div>
