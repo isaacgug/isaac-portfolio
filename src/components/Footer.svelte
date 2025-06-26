@@ -6,8 +6,8 @@ gap-4 sm:gap-8 justify-center items-center z-20">
     <div class="flex flex-col gap-4 items-center justify-center">
         <p class="poppins font-semibold"><b class="pr-2">Email</b> isaac.guglielmin@gmail.com</p>
         <p class="poppins font-semibold"><b class="pr-2">GitHub</b>
-            <a class="text-yellow-400 pointer-events-auto" target="_blank" href="https://github.com/IsaacGug">
-                IsaacGug<sup
+            <a class="text-yellow-400 pointer-events-auto" target="_blank" href="https://github.com/isaacgug">
+                isaacgug<sup
                 ><span class="text-xs scale-75 pl-0.5">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
                 </span></sup>
